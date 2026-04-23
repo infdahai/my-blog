@@ -1,0 +1,24 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "docs/papers",
+  "imageOutputPathTemplate": "docs/images/{{citekey}}",
+  "imageBaseNameTemplate": "image",
+  "imageFormat": "jpg",
+  "imageQuality": 90,
+  "imageDPI": 150,
+  "concurrency": 5,
+  "exeOverridePath": "",
+  "betterBibTexCitekey": true,
+  "citeFormats": [],
+  "exportFormats": [
+    {
+      "name": "Paper Note",
+      "outputPathTemplate": "docs/papers/{{citekey}}.md",
+      "imageOutputPathTemplate": "docs/images/{{citekey}}",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "90_Templates/paper-note.md",
+      "cslStyle": ""
+    }
+  ],
+  "settingsVersion": 2
+}
