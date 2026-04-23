@@ -1,15 +1,15 @@
 site_name: Thinking in Systems
-site_url: https://yourname.github.io/blog/
-site_author: Your Name
-site_description: Notes on AI, System Design, and Engineering.
+site_url: https://infdahai.github.io/my-blog/
+site_author: infdahai
+site_description: Notes on AI, System Design, and Embodied Intelligence.
 
 # Keep BBT (Better BibTeX) auto-export out of the built site
 exclude_docs: |
   zotero/
   /90_Templates/
 
-repo_name: yourname/blog
-repo_url: https://github.com/yourname/blog
+repo_name: infdahai/my-blog
+repo_url: https://github.com/infdahai/my-blog
 
 theme:
   name: material
