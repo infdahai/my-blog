@@ -58,7 +58,7 @@ plugins:
       archive: true
       archive_date_format: yyyy
       categories: true
-      tags: true
+  - tags
 
 markdown_extensions:
   - footnotes
