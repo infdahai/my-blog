@@ -1,21 +1,22 @@
 ---
 citekey: "{{citekey}}"
 title: "{{title}}"
-authors: [{{authorString}}]
-year: {{year}}
-venue: "{{containerTitle}}"
+authors: [{% for c in creators %}"{{c.firstName}} {{c.lastName}}"{% if not loop.last %}, {% endif %}{% endfor %}]
+year: {{date | format("YYYY")}}
+venue: "{{publicationTitle}}"
 url: "{{URL}}"
-zotero_select: "{{zoteroSelectURI}}"
-tags: [paper, embodied-ai]
+doi: "{{DOI}}"
+zotero_select: "zotero://select/library/items/{{itemKey}}"
+tags: [paper, embodied-ai{% for t in tags %}, "{{t.tag}}"{% endfor %}]
 status: unread   # unread | reading | done
 rating:          # 1-5
-created: {{date | format("YYYY-MM-DD")}}
+created: {{importDate | format("YYYY-MM-DD")}}
 ---
 
 # {{title}}
 
-> {{authorString}} · {{year}} · *{{containerTitle}}*
-> [Open in Zotero]({{zoteroSelectURI}})
+> {% for c in creators %}{{c.firstName}} {{c.lastName}}{% if not loop.last %}, {% endif %}{% endfor %} · {{date | format("YYYY")}}{% if publicationTitle %} · *{{publicationTitle}}*{% endif %}
+> [Open in Zotero](zotero://select/library/items/{{itemKey}}){% if URL %} · [Source]({{URL}}){% endif %}
 
 ## TL;DR
 <!-- 一句话总结 -->
@@ -32,8 +33,29 @@ created: {{date | format("YYYY-MM-DD")}}
 ## My Notes
 <!-- 个人批注：值得借鉴的点、存疑、与具身智能场景的关联 -->
 
-## Figures
-<!-- 截图引用：![](../images/{{citekey}}-fig1.png) -->
+## Highlights & Annotations
+{% persist "annotations" %}
+{% set annotations = annotations | filterby("date", "dateafter", lastImportDate) %}
+{% if annotations.length > 0 %}
+### Imported on {{importDate | format("YYYY-MM-DD HH:mm")}}
+{% for a in annotations %}
+{%- if a.annotatedText %}
+> {{a.annotatedText}}{% if a.pageLabel %} (p. {{a.pageLabel}}){% endif %}
+{% endif -%}
+{%- if a.imageRelativePath %}
+![[{{a.imageRelativePath}}]]
+{% endif -%}
+{%- if a.comment %}
+**Note:** {{a.comment}}
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endpersist %}
+
+## Zotero Notes
+{% for note in notes %}
+{{note.note}}
+{% endfor %}
 
 ## Related
 <!-- [[other-paper-citekey]] -->
