@@ -7,6 +7,12 @@ description: 具身智能与系统工程的零碎想法、知识沉淀
 
 具身智能（Embodied AI）研究路上的快速笔记 —— 想法、概念整理、debug 记录、灵感闪念。
 
+## 推理系统
+
+- [[sglang-path-to-maintainer]] — SGLang 通往 Maintainer 的 12 个月路径
+- [[sglang-request-path]] — 架构 01：进程模型与请求环
+
+
 写作约定：
 - 每个主题一个 `.md` 文件，文件名 `kebab-case`
 - 用 `[[wikilink]]` 互链，包括链到 `papers/{citekey}` 的论文笔记
