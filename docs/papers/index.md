@@ -14,4 +14,5 @@ PDF 原件由 Zotero 管理，存储在 iCloud (`~/Library/Mobile Documents/com~
 
 ## 索引
 
-> 后续可由脚本根据 frontmatter 自动生成；目前手动维护或留空。
+- [[fengWAMTTTSteeringWorldAction2026|WAM-TTT：从 VLA、人类视频模仿到部署时技能记忆]]
+- [[kimOpenVLAOpenSourceVisionLanguageAction2024a|OpenVLA: An Open-Source Vision-Language-Action Model]]
