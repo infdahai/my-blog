@@ -22,26 +22,26 @@ date: 2026-08-13
 
 角色从低到高：
 
-| 角色 | 你能做什么 | 现实含义 |
-|---|---|---|
-| 路人 PR | 修文档、测例、小 bug | 现在的你 |
-| 可信贡献者 | 自己的 PR 能要到 `run-ci` | 大约 1–3 个月 |
-| CI 权限用户 | 进 `CI_PERMISSIONS.json` | 别人开始拿你当自己人 |
-| Write | 能 merge 已批准的 PR | 你开始值班，不只是投稿 |
-| Codeowner | 你负责的文件没你 +1 不能合 | 被动保护，责任很重 |
-| Merge Oncall | 能绕过 flaky CI 合入，出了锅你 revert | 这块的实际主人 |
+| 角色           | 你能做什么                       | 现实含义        |
+| ------------ | --------------------------- | ----------- |
+| 路人 PR        | 修文档、测例、小 bug                | 现在的你        |
+| 可信贡献者        | 自己的 PR 能要到 `run-ci`         | 大约 1–3 个月   |
+| CI 权限用户      | 进 `CI_PERMISSIONS.json`     | 别人开始拿你当自己人  |
+| Write        | 能 merge 已批准的 PR             | 你开始值班，不只是投稿 |
+| Codeowner    | 你负责的文件没你 +1 不能合             | 被动保护，责任很重   |
+| Merge Oncall | 能绕过 flaky CI 合入，出了锅你 revert | 这块的实际主人     |
 
 对你最重要的责任田，按机器人推理和现有缺口选：
 
-| 田 | 目录 | Merge Oncall / Codeowner | 为什么是你的 |
-|---|---|---|---|
-| **主田** | `python/sglang/srt/multimodal` | @mickqian @JustinTong0323 @yhyang201 @yuan-luo | VLA / 带图控制的入口 |
-| **主田** | VLM models，如 `qwen2_5_vl.py` `qwen3_vl.py` `internvl.py` | models / NV 优化组 | 模型怎么被引擎吃进去 |
-| **副田** | `srt/mem_cache`，尤其 `multimodal_cache.py` `session_radix_cache.py` `radix_cache.py` | Lianmin / Ying / hnyls2002 / xiezhq-hermann | 连续控制的命根 |
-| **副田** | `srt/session` | managers 组 | 多步请求复用 KV |
-| **后期** | `srt/constrained` | hnyls2002 | 动作必须合法 |
-| **后期** | `srt/disaggregation` 的 encode 路径 | Byron / Shangming | EPD，多机器人共享视觉 |
-| **不要先碰** | DeepSeek EP、sgl-kernel、GB200 PD、diffusion | 核心老人主战场 | 你进去只能当搬砖，建不成判断 |
+| 田        | 目录                                                                                 | Merge Oncall / Codeowner                       | 为什么是你的         |
+| -------- | ---------------------------------------------------------------------------------- | ---------------------------------------------- | -------------- |
+| **主田**   | `python/sglang/srt/multimodal`                                                     | @mickqian @JustinTong0323 @yhyang201 @yuan-luo | VLA / 带图控制的入口  |
+| **主田**   | VLM models，如 `qwen2_5_vl.py` `qwen3_vl.py` `internvl.py`                           | models / NV 优化组                                | 模型怎么被引擎吃进去     |
+| **副田**   | `srt/mem_cache`，尤其 `multimodal_cache.py` `session_radix_cache.py` `radix_cache.py` | Lianmin / Ying / hnyls2002 / xiezhq-hermann    | 连续控制的命根        |
+| **副田**   | `srt/session`                                                                      | managers 组                                     | 多步请求复用 KV      |
+| **后期**   | `srt/constrained`                                                                  | hnyls2002                                      | 动作必须合法         |
+| **后期**   | `srt/disaggregation` 的 encode 路径                                                   | Byron / Shangming                              | EPD，多机器人共享视觉   |
+| **不要先碰** | DeepSeek EP、sgl-kernel、GB200 PD、diffusion                                          | 核心老人主战场                                        | 你进去只能当搬砖，建不成判断 |
 
 一句话：先成为 **multimodal + session/cache** 的人，再谈 Scheduler 内核和大模型 EP。
 
