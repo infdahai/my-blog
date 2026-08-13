@@ -276,7 +276,7 @@ RFC 写法：问题、现有路径、两个方案、对普通 LLM serving 的影
 笔记按模块拆，不要写一本“SGLang 大全”：
 
 - [[sglang-request-path]] — 架构 01：进程模型与请求环（已写）
-- `sglang-scheduler-loop.md` — 架构 02：waiting / running / retract / overlap
+- [[sglang-scheduler-loop]] — 架构 02：waiting / running / retract / overlap（已写）
 - `sglang-multimodal.md` — processor、hash、encoder graph
 - `sglang-radix-session.md` — cache 与连续控制
 - `sglang-pr-log.md` — 每个 PR 的症状、根因、review 意见

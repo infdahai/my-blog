@@ -11,6 +11,7 @@ description: 具身智能与系统工程的零碎想法、知识沉淀
 
 - [[sglang-path-to-maintainer]] — SGLang 通往 Maintainer 的 12 个月路径
 - [[sglang-request-path]] — 架构 01：进程模型与请求环
+- [[sglang-scheduler-loop]] — 架构 02：Scheduler 循环
 
 
 写作约定：
