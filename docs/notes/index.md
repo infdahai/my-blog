@@ -7,6 +7,10 @@ description: 具身智能与系统工程的零碎想法、知识沉淀
 
 具身智能（Embodied AI）研究路上的快速笔记 —— 想法、概念整理、debug 记录、灵感闪念。
 
+## Agent 运行时
+
+- [[dsh-vs-pi-architecture]] — DeepSeek Harness 与 Pi Agent 的架构分叉
+
 ## 推理系统
 
 - [[sglang-path-to-maintainer]] — SGLang 通往 Maintainer 的 12 个月路径
