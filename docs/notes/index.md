@@ -9,6 +9,7 @@ description: 具身智能与系统工程的零碎想法、知识沉淀
 
 ## Agent 运行时
 
+- [[how-a-harness-is-built]] — Harness 到底怎么做：Pi / Claude / dsh / Codex / OpenCode
 - [[dsh-vs-pi-architecture]] — DeepSeek Harness 与 Pi Agent 的架构分叉
 
 ## 推理系统
