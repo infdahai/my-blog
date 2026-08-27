@@ -1,0 +1,29 @@
+---
+citekey: "jingSoftVTBenchDeformationAwareVisuoTactileDatasetBenchmarkDeformable2026"
+title: "SoftVTBench: A Deformation-Aware Visuo-Tactile Dataset and Benchmark for Deformable-Object Manipulation"
+authors: ["Bowen Jing", "Mingxin Wang", "Ruiyang Hao", "Chenchen Ge", "Hanwen Shen", "Junjie He", "Yang Cui", "Yiming Hou", "Weitao Zhou", "Jiawei Wang", "Minglei Li", "Dandan Zhang", "Ding Zhao", "Houde Liu", "Xiaofan Li", "Si Liu", "Ping Luo", "Haibao Yu"]
+year: 2026
+venue: "arXiv"
+url: "https://arxiv.org/abs/2608.18701"
+doi: "10.48550/arXiv.2608.18701"
+tags: [paper, embodied-ai, "cs.RO"]
+status: unread
+rating:
+created: 2026-08-27
+---
+
+# SoftVTBench: A Deformation-Aware Visuo-Tactile Dataset and Benchmark for Deformable-Object Manipulation
+
+> Bowen Jing, Mingxin Wang, Ruiyang Hao, Chenchen Ge, Hanwen Shen, Junjie He, Yang Cui, Yiming Hou, Weitao Zhou, Jiawei Wang, Minglei Li, Dandan Zhang, Ding Zhao, Houde Liu, Xiaofan Li, Si Liu, Ping Luo, Haibao Yu · 2026
+> [arXiv](https://arxiv.org/abs/2608.18701) · [PDF](https://arxiv.org/pdf/2608.18701)
+
+## Abstract
+
+Physical interaction quality is central to deformable-object manipulation, yet most benchmarks evaluate task success alone. A policy may complete the task while allowing slip or causing excessive compression. A primary bottleneck is the absence of visuo-tactile datasets that pair policy-visible contact observations with independent physical ground truth over complete tasks. We introduce SoftVTBench, a visuo-tactile dataset for physical-interaction-aware deformable-object manipulation. It contains 4,000 expert demonstrations and more than 50 assets, including volumetric deformable objects and visually matched rigid twins. At 20 Hz, each episode synchronizes multi-view RGB, dual-finger tactile RGB and marker motion, proprioception, language, and binary and continuous gripper actions, alongside evaluator-only finite-element (FEM) states. Building upon this dataset, we establish a closed-loop benchmark that uses fixed object-specific calibration to define the Deformation-aware Success Rate (DSR), which counts a rollout as successful only when it completes the task and keeps peak normalized deformation within tolerance. Across Diffusion Policy, $π_{0.5}$, and FastWAM, all 12 in-distribution configurations contain successful rollouts that violate the deformation tolerance, accounting for 0.7--24% of each configuration's successes. Under distribution shift, visuo-tactile variants achieve higher task success in all six policy--suite comparisons and higher DSR in five, whereas their in-distribution benefits are mixed. These results show that making touch available does not by itself ensure effective multimodal fusion. SoftVTBench therefore provides a common visuo-tactile resource for studying not only whether a policy succeeds, but how it physically interacts with deformable objects and when touch improves that interaction.
+
+## TL;DR
+
+Physical interaction quality is central to deformable-object manipulation, yet most benchmarks evaluate task success alone. A policy may complete the task while allowing slip or causing excessive compression.
+
+## Related
+<!-- [[other-paper-citekey]] -->
