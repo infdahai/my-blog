@@ -1,0 +1,29 @@
+---
+citekey: "chenBeyondReconstructionWhatMattersActionTokenizationPolicies2026"
+title: "Beyond Reconstruction: What Matters in Action Tokenization for Robot Policies?"
+authors: ["Haoran Chen", "Jingtian Ji", "Samuel Wheeler", "Kaylene Caswell Stocking", "Matthew Walter"]
+year: 2026
+venue: "arXiv"
+url: "https://arxiv.org/abs/2610.09170"
+doi: "10.48550/arXiv.2610.09170"
+tags: [paper, embodied-ai, "cs.RO"]
+status: unread
+rating:
+created: 2026-10-09
+---
+
+# Beyond Reconstruction: What Matters in Action Tokenization for Robot Policies?
+
+> Haoran Chen, Jingtian Ji, Samuel Wheeler, Kaylene Caswell Stocking, Matthew Walter · 2026
+> [arXiv](https://arxiv.org/abs/2610.09170) · [PDF](https://arxiv.org/pdf/2610.09170)
+
+## Abstract
+
+Autoregressive action-token policies such as vision-language-action models require action tokenizers to translate discrete token sequences into precise control actions in continuous space. Many action tokenizers learn the mapping between tokens and actions via a reconstruction objective. However, as we show through extensive analysis, sufficiently accurate action reconstruction is only one part of what makes a downstream robot policy successful. It is also critical that the policy is able to predict the right tokens for new observations, and that unseen policy token predictions still decode into reasonable actions. These properties are downstream of tokenizer training and are not directly incentivized by a reconstruction objective alone. In this work, we introduce Predictable and Robust Action Tokenization (ProAct), a tokenizer training method that strategically augments reconstruction with the goal of improving downstream predictability and robustness. ProAct is policy-agnostic and uses only action datasets for training. Across the Robomimic, LIBERO, and RoboTwin benchmarks and a diverse set of tokenizer architectures, ProAct improves rollout success by an average of 11.3 percentage points. These improvements also translate to vision-language-action policies and real-world robotic manipulation, yielding average gains of 21.8 and 36.7 percentage points, respectively. These results suggest that effective action tokenization should be designed as a policy interface that balances fidelity, predictability, and robustness, rather than as a reconstruction problem alone.
+
+## TL;DR
+
+Autoregressive action-token policies such as vision-language-action models require action tokenizers to translate discrete token sequences into precise control actions in continuous space. Many action tokenizers learn the mapping between tokens and actions via a reconstruction objective.
+
+## Related
+<!-- [[other-paper-citekey]] -->

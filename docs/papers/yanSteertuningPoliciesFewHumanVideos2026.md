@@ -1,0 +1,29 @@
+---
+citekey: "yanSteertuningPoliciesFewHumanVideos2026"
+title: "Steertuning Policies from a Few Human Videos"
+authors: ["Billy Yan", "Isaac Tu", "Kelly Lee", "Blake Chang", "Kenny Ma", "Kanad Patel", "Dhawal Kabra", "Neer Patel", "Kevin Wu", "Lerrel Pinto", "Irmak Guzey"]
+year: 2026
+venue: "arXiv"
+url: "https://arxiv.org/abs/2610.18711"
+doi: "10.48550/arXiv.2610.18711"
+tags: [paper, embodied-ai, "cs.AI", "cs.RO"]
+status: unread
+rating:
+created: 2026-10-18
+---
+
+# Steertuning Policies from a Few Human Videos
+
+> Billy Yan, Isaac Tu, Kelly Lee, Blake Chang, Kenny Ma, Kanad Patel, Dhawal Kabra, Neer Patel, Kevin Wu, Lerrel Pinto, Irmak Guzey · 2026
+> [arXiv](https://arxiv.org/abs/2610.18711) · [PDF](https://arxiv.org/pdf/2610.18711)
+
+## Abstract
+
+Current recipes for robot learning require massive amounts of robot demonstrations to obtain robust and adaptive policies. In this work, we introduce Steertuning, a system that enables robots to learn new tasks in new environments from 5 human demonstrations in under 5 Steertuning consists of two parts. (1) We pretrain a 400M-parameter diffusion policy on our egocentric human dataset, which consists of 100 hours of densely annotated random interactions. This pretraining makes Steertuning robust to background differences and enables spatial and object generalization when deployed on new tasks. (2) Given 5 demonstrations of a new task, we finetune our model for only 2 minutes (2000 training updates) and steer the policy's actions during reverse sampling using the demonstration whose observation is closest to that of the deployment environment. Together with a carefully designed data processing pipeline for embodiment transfer, this enables Steertuning to achieve a 71% success rate across 12 tasks in 12 new environments, ranging from lab settings to kitchens in new homes. The entire process, from data collection for a new task to robot policy deployment, takes less than 5 minutes. Our full dataset, model weights, codebase, and robot videos will be made available at our website: https://steertuning.github.io.
+
+## TL;DR
+
+Current recipes for robot learning require massive amounts of robot demonstrations to obtain robust and adaptive policies. In this work, we introduce Steertuning, a system that enables robots to learn new tasks in new environments from 5 human demonstrations in under 5 Steertuning consists of two parts.
+
+## Related
+<!-- [[other-paper-citekey]] -->

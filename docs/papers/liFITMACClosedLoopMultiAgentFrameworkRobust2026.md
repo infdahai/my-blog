@@ -1,0 +1,29 @@
+---
+citekey: "liFITMACClosedLoopMultiAgentFrameworkRobust2026"
+title: "FIT-MAC: A Closed-Loop Multi-Agent Framework for Robust Vision-Language-Action Models"
+authors: ["Jiatong Li", "Jisheng Dang", "Qiangqiang Ma", "Bimei Wang", "Jingwen Zhao", "Wenjun Ma", "Juncheng Li", "Hong Peng", "Bin Hu"]
+year: 2026
+venue: "arXiv"
+url: "https://arxiv.org/abs/2610.28109"
+doi: "10.48550/arXiv.2610.28109"
+tags: [paper, embodied-ai, "cs.RO"]
+status: unread
+rating:
+created: 2026-10-22
+---
+
+# FIT-MAC: A Closed-Loop Multi-Agent Framework for Robust Vision-Language-Action Models
+
+> Jiatong Li, Jisheng Dang, Qiangqiang Ma, Bimei Wang, Jingwen Zhao, Wenjun Ma, Juncheng Li, Hong Peng, Bin Hu · 2026
+> [arXiv](https://arxiv.org/abs/2610.28109) · [PDF](https://arxiv.org/pdf/2610.28109)
+
+## Abstract
+
+Vision-language-action (VLA) models have achieved strong performance on standard robotic manipulation benchmarks. However, their reliability can degrade substantially when task conditions deviate from the nominal setting. Perturbations in object positions and task instructions may lead to complete task failure. Existing VLA policies generally lack an explicit runtime mechanism for distinguishing these failure modes and selecting an appropriate recovery strategy. To systematically mitigate this issue, we propose FIT-MAC, a failure-aware, closed-loop multi-agent control framework for improving the robustness of VLA policies at inference time. FIT-MAC augments a VLA policy with an inference-time control layer. First, the Planner Agent parses the language instruction into a structured task specification that captures the manipulation goal and spatial constraints, and the Grounder Agent resolves each instruction-level reference to a visual target. Next, the Verifier Agent tracks phase-specific execution progress, distinguishes target-binding errors from local execution failures, and determines whether intervention is warranted. The Correction Agent then routes permitted interventions to target rebinding or bounded grasping or placement recovery, depending on the failure type. When no intervention is required, the pretrained VLA remains the default action generator. Extensive experiments on LIBERO-PRO demonstrate that FIT-MAC improves robustness across multiple VLA backbones, consistently increasing success rates and achieving state-of-the-art performance under diverse perturbations.
+
+## TL;DR
+
+Vision-language-action (VLA) models have achieved strong performance on standard robotic manipulation benchmarks. However, their reliability can degrade substantially when task conditions deviate from the nominal setting.
+
+## Related
+<!-- [[other-paper-citekey]] -->

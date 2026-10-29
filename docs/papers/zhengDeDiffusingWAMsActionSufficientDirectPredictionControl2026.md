@@ -1,0 +1,29 @@
+---
+citekey: "zhengDeDiffusingWAMsActionSufficientDirectPredictionControl2026"
+title: "De-Diffusing WAMs: Action-Sufficient Direct Prediction for Robot Control"
+authors: ["Shaoyi Zheng", "Zhongtao Jiang", "Yue Peng", "Wenbo Lu", "Shunchi Zhang", "Xi Wang", "Shengji Wan"]
+year: 2026
+venue: "arXiv"
+url: "https://arxiv.org/abs/2610.28122"
+doi: "10.48550/arXiv.2610.28122"
+tags: [paper, embodied-ai, "cs.AI", "cs.RO"]
+status: unread
+rating:
+created: 2026-10-22
+---
+
+# De-Diffusing WAMs: Action-Sufficient Direct Prediction for Robot Control
+
+> Shaoyi Zheng, Zhongtao Jiang, Yue Peng, Wenbo Lu, Shunchi Zhang, Xi Wang, Shengji Wan · 2026
+> [arXiv](https://arxiv.org/abs/2610.28122) · [PDF](https://arxiv.org/pdf/2610.28122)
+
+## Abstract
+
+Cascade world-action models (WAMs) use predicted visual futures to condition robot actions, but inherit costly iterative inference from diffusion-pretrained experts. We ask what a single-step predicted future must preserve to support accurate single-step action prediction. In the evaluated WAM, resampling video noise has little effect on downstream actions, yet naively truncating both streams to one step substantially reduces task success. Video-space supervision only partially closes this gap, and a local sensitivity analysis shows that vision prediction errors have highly unequal consequences for action accuracy. These findings motivate DirectWAM, which converts pretrained video and action experts into single-step predictors without stochastic sampling through action-sufficient distillation, while retaining the explicit future-to-action cascade. After learning a one-step action model, we train the future predictor by decoding actions from its own predicted futures and backpropagating demonstration action error through the expert, with an optional future-latent reconstruction loss. The resulting objective evaluates the student-generated future through its downstream control consequences rather than relying on representation matching alone. DirectWAM achieves 97.1% average success across four LIBERO suites and 85.4% on RoboTwin 2.0, outperforming Flash-WAM at the same one-evaluation-per-stream budget. This advantage has also extended to three real-world tasks that we designed. Compared with the full iterative teacher, it reduces inference latency by $28.0\times$.
+
+## TL;DR
+
+Cascade world-action models (WAMs) use predicted visual futures to condition robot actions, but inherit costly iterative inference from diffusion-pretrained experts. We ask what a single-step predicted future must preserve to support accurate single-step action prediction.
+
+## Related
+<!-- [[other-paper-citekey]] -->

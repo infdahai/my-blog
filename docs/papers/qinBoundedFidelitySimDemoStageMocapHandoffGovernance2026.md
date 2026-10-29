@@ -1,0 +1,29 @@
+---
+citekey: "qinBoundedFidelitySimDemoStageMocapHandoffGovernance2026"
+title: "Bounded-Fidelity Sim-as-Demo-Stage: Mocap Handoff for Governance Benchmarks"
+authors: ["Xue Qin", "Simin Luan", "Cong Yang", "Zhijun Li"]
+year: 2026
+venue: "arXiv"
+url: "https://arxiv.org/abs/2610.00008"
+doi: "10.48550/arXiv.2610.00008"
+tags: [paper, embodied-ai, "cs.AI", "cs.RO"]
+status: unread
+rating:
+created: 2026-10-03
+---
+
+# Bounded-Fidelity Sim-as-Demo-Stage: Mocap Handoff for Governance Benchmarks
+
+> Xue Qin, Simin Luan, Cong Yang, Zhijun Li · 2026
+> [arXiv](https://arxiv.org/abs/2610.00008) · [PDF](https://arxiv.org/pdf/2610.00008)
+
+## Abstract
+
+Sim-to-real research pursues physics fidelity as a primary objective: simulators are judged by how closely they reproduce real-world contact dynamics. For governance benchmarking of LLM-driven robots, where the simulator demonstrates that an admission/policy/contract/audit pipeline behaves correctly, contact fidelity at object handoffs (grasp, carry, place) becomes a liability: contact-force integration noise injects audit-chain divergence that is structurally unrelated to the governance property under test. We propose bounded-fidelity sim-as-demo-stage, a design pattern that suppresses contact physics within explicitly bracketed handoff envelopes while preserving full dynamics elsewhere. The construction uses MuJoCo's mocap-body primitive driven by a 220-line Python adapter that the governance bridge invokes via structured intents. We formalise audit-chain stability as byte-equality of the hashed event log across replays and identify two structural envelope properties that imply it. Across N=1000 replays per posture, the mocap variant produces one distinct audit-chain hash (1000/1000 byte-identical; Wilson 95% CI [0.997, 1.000]); the contact-force baseline produces 584 distinct hashes (993/1000 diverged; CI [0.987, 0.998]). A timestep sweep (1, 2, 5, 10 ms) shows the divergence is structural, not a tuning artefact: it stays at 0.985 at every timestep. Envelope-edge timing jitter (+/-10 simulation steps, 1,400 replays) produces 0 divergence, and audit chains remain byte-equal across K in {1, 2, 3} sequentially handed-off objects (1,500 replays) with sub-linear per-pick-and-place overhead. The pattern gives benchmark designers audit-chain reproducibility at near-zero engineering cost; we also map where it is harmful (sim-to-real validation, policy training, contact-rich tasks) so it is not mis-deployed.
+
+## TL;DR
+
+Sim-to-real research pursues physics fidelity as a primary objective: simulators are judged by how closely they reproduce real-world contact dynamics. For governance benchmarking of LLM-driven robots, where the simulator demonstrates that an admission/policy/contract/audit pipeline behaves correctly, contact fidelity at object handoffs (grasp, carry, place) becomes a liability: contact-force integration noise injects audit-chain divergence that is structurally unrelated to the governance property under test.
+
+## Related
+<!-- [[other-paper-citekey]] -->

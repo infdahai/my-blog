@@ -1,0 +1,29 @@
+---
+citekey: "dongBehaviorAlignedActionTokenizationPolicyLearning2026"
+title: "Behavior-Aligned Action Tokenization for Robot Policy Learning"
+authors: ["Junbo Dong", "Ze Chen", "Zhendong Xie", "Junjie Li", "Lixin Xu", "Xuemin Chi", "Yiming Song", "Zhaoyuan Ma"]
+year: 2026
+venue: "arXiv"
+url: "https://arxiv.org/abs/2609.27513"
+doi: "10.48550/arXiv.2609.27513"
+tags: [paper, embodied-ai, "cs.RO"]
+status: unread
+rating:
+created: 2026-09-25
+---
+
+# Behavior-Aligned Action Tokenization for Robot Policy Learning
+
+> Junbo Dong, Ze Chen, Zhendong Xie, Junjie Li, Lixin Xu, Xuemin Chi, Yiming Song, Zhaoyuan Ma · 2026
+> [arXiv](https://arxiv.org/abs/2609.27513) · [PDF](https://arxiv.org/pdf/2609.27513)
+
+## Abstract
+
+Autoregressive robot policies learn continuous control by predicting discrete action tokens from observations. Different tasks often share local motions, yet behavioral correspondence across demonstrations receives limited explicit supervision in existing tokenizers. Motions with different timing can therefore lack a shared representation despite following similar patterns. We propose Behavior-Aligned Action Tokenization (BAAT), which uses soft dynamic time warping (Soft-DTW) to select corresponding action chunks and aligns their quantized coordinates jointly with reconstruction. This objective encourages similar motions across tasks to occupy nearby quantized representations while retaining executable action detail. A history-conditioned diffusion decoder reconstructs continuous action chunks from these tokens, and a downstream autoregressive policy learns to predict them. We evaluate BAAT on selected tasks from three simulation benchmarks and two real robot tasks. BAAT achieves a mean simulation success rate of approximately 45.2%, exceeding OAT by approximately 7.2 percentage points. In the controlled LIBERO-All alignment ablation, policy success rises from 70.2% to 79.0% while trajectory replay success decreases. These results support behavioral correspondence as supervision for organizing shared motion structure in action tokenizers and improving downstream robot policy learning.
+
+## TL;DR
+
+Autoregressive robot policies learn continuous control by predicting discrete action tokens from observations. Different tasks often share local motions, yet behavioral correspondence across demonstrations receives limited explicit supervision in existing tokenizers.
+
+## Related
+<!-- [[other-paper-citekey]] -->

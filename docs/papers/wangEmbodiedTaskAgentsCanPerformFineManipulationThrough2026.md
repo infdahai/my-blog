@@ -1,0 +1,29 @@
+---
+citekey: "wangEmbodiedTaskAgentsCanPerformFineManipulationThrough2026"
+title: "Embodied Task Agents Can Perform Fine Manipulation through Tactile In-Context Learning"
+authors: ["Yubang Wang", "Zezheng Huai", "Yifei Zhang", "Jinhao Wu", "Yitong Chen", "Haozhe Zhang", "Sixian Li", "Jingjing Gong", "Zhenyang Lin", "Ziyang Chen", "Xipeng Qiu"]
+year: 2026
+venue: "arXiv"
+url: "https://arxiv.org/abs/2610.27613"
+doi: "10.48550/arXiv.2610.27613"
+tags: [paper, embodied-ai, "cs.RO"]
+status: unread
+rating:
+created: 2026-10-22
+---
+
+# Embodied Task Agents Can Perform Fine Manipulation through Tactile In-Context Learning
+
+> Yubang Wang, Zezheng Huai, Yifei Zhang, Jinhao Wu, Yitong Chen, Haozhe Zhang, Sixian Li, Jingjing Gong, Zhenyang Lin, Ziyang Chen, Xipeng Qiu · 2026
+> [arXiv](https://arxiv.org/abs/2610.27613) · [PDF](https://arxiv.org/pdf/2610.27613)
+
+## Abstract
+
+Can embodied task agents use tactile experience to perform fine manipulation without task-specific model training? We investigate this capability through Tactile-ETA, a system that incorporates tactile experience into an embodied task agent through in-context learning. Successful expert demonstrations show how contact changes during manipulation. We pair each recorded robot movement with its camera views and bilateral tactile observations. We keep tactile observations at the start and end of each movement and add two neighboring time points when the tactile images change markedly in between. The agent combines these demonstrations with current vision, tactile observations, and proprioception to select actions through general-purpose robot tools, without updating model parameters. Across four simulated manipulation tasks, adding tactile observations to the same two expert demonstrations increases average success from 15.75% to 24.00%, with current sensing and execution interfaces held fixed. Further experiments show that performance depends on the sensory content and representation of demonstrations, while comparing agent models on Lift Bottle reveals substantial differences under the same system configuration. On the real-robot tasks, demonstrations with aligned visual and tactile observations increase the task success rate from 0% to 60%. These findings demonstrate the feasibility of using tactile experience in context for fine manipulation and suggest a path toward extending embodied task agents to additional sensory inputs.
+
+## TL;DR
+
+Can embodied task agents use tactile experience to perform fine manipulation without task-specific model training? We investigate this capability through Tactile-ETA, a system that incorporates tactile experience into an embodied task agent through in-context learning.
+
+## Related
+<!-- [[other-paper-citekey]] -->

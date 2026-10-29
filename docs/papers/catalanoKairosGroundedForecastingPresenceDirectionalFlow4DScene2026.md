@@ -1,0 +1,29 @@
+---
+citekey: "catalanoKairosGroundedForecastingPresenceDirectionalFlow4DScene2026"
+title: "Kairos: Grounded Forecasting of Presence and Directional Flow in 4D Scene Graphs"
+authors: ["Iacopo Catalano", "Julio A. Placed", "Javier Civera", "Jorge Pe\\~na Queralta"]
+year: 2026
+venue: "arXiv"
+url: "https://arxiv.org/abs/2609.27467"
+doi: "10.48550/arXiv.2609.27467"
+tags: [paper, embodied-ai, "cs.AI", "cs.RO"]
+status: unread
+rating:
+created: 2026-09-25
+---
+
+# Kairos: Grounded Forecasting of Presence and Directional Flow in 4D Scene Graphs
+
+> Iacopo Catalano, Julio A. Placed, Javier Civera, Jorge Pe\~na Queralta · 2026
+> [arXiv](https://arxiv.org/abs/2609.27467) · [PDF](https://arxiv.org/pdf/2609.27467)
+
+## Abstract
+
+Long-term autonomy in human-populated environments requires anticipating whether and how people will move at times a robot has not yet observed. Existing representations of pedestrian motion face a tradeoff: they either forecast future activity, reducing each location to a scalar rate, or model the full directional distribution, holding it fixed in time. We present Kairos, a predictive directional-flow memory that extends a hierarchical 3D scene graph (3DSG) to a 4D scene graph (4DSG). Every observed voxel of the reconstructed geometry stores a directional mixture and a presence rate, and spectral predictors forecast, for any future query time, both the probability that people are present and the full directional distribution of their motion. Pairwise flow dependence between adjacent voxels supports conditional queries, and per-voxel predictive variances yield calibrated credible intervals that tighten as observations accumulate. We evaluate Kairos on three real pedestrian environments: a robot-collected campus dataset, a shopping mall, and a station concourse recorded continuously for eleven months. Its learned state remains consistent under loop-closure corrections, and its forecasts are competitive with dedicated occupancy and flow models trained on the full detection stream, although Kairos learns from only the small fraction available to a patrolling robot. Finally, we validate the representation on a downstream encounter-probability planning task, where plans computed over the Kairos forecasts encounter more people than plans computed over any time-invariant map at an equal success rate. We provide the code at https://github.com/IacopomC/kairos.
+
+## TL;DR
+
+Long-term autonomy in human-populated environments requires anticipating whether and how people will move at times a robot has not yet observed. Existing representations of pedestrian motion face a tradeoff: they either forecast future activity, reducing each location to a scalar rate, or model the full directional distribution, holding it fixed in time.
+
+## Related
+<!-- [[other-paper-citekey]] -->

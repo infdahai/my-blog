@@ -1,0 +1,29 @@
+---
+citekey: "zhuRoboCousinBuildYourOwnSimulationPlaygroundRobustBimanual2026"
+title: "RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation"
+authors: ["Jingxuan Zhu", "Jingyi Li", "LiangLiang Chen", "Zhiyuan Jing", "Jidong Zhang", "Hongming Li"]
+year: 2026
+venue: "arXiv"
+url: "https://arxiv.org/abs/2609.08339"
+doi: "10.48550/arXiv.2609.08339"
+tags: [paper, embodied-ai, "cs.AI", "cs.RO"]
+status: unread
+rating:
+created: 2026-09-11
+---
+
+# RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation
+
+> Jingxuan Zhu, Jingyi Li, LiangLiang Chen, Zhiyuan Jing, Jidong Zhang, Hongming Li · 2026
+> [arXiv](https://arxiv.org/abs/2609.08339) · [PDF](https://arxiv.org/pdf/2609.08339)
+
+## Abstract
+
+Bimanual manipulation policies require large and diverse training datasets, yet collecting demonstrations on physical robots is expensive and difficult to scale. Simulation can generate data efficiently, but existing pipelines typically operate within closed asset libraries and predefined scenes: adding a newly observed object or environment still requires substantial effort to reconstruct geometry, specify physical and semantic properties, annotate interactions, and integrate the result into executable tasks. We present RoboCousin, an extensible simulation-based data-generation platform that turns user-provided observations into reusable assets, scenes, and expert trajectories for bimanual manipulation. Built on RoboTwin~2.0, RoboCousin converts object images into simulation-ready assets with visual and collision geometry, semantic and physical metadata, and automatically generated grasp-contact candidates. It further constructs digital cousins that vary compatible objects, backgrounds, layouts, and language instructions while preserving task-relevant affordances and spatial relations. The same asset system supports tabletop and room-level scene construction, with collision-aware base control for interaction beyond a fixed workspace. We release RoboCousin-OBD, containing more than 3,000 annotated object instances and 50 background environments, and use RoboCousin to generate over one million expert trajectories across 50 tasks. Simulation and real-robot experiments show that the automatically generated interaction annotations are comparable to curated annotations, generated assets provide effective sim-to-real supervision, and tabletop cousins can improve transfer beyond training on a single reconstructed scene. RoboCousin therefore provides a practical path for expanding both the scale and coverage of synthetic bimanual manipulation data.
+
+## TL;DR
+
+Bimanual manipulation policies require large and diverse training datasets, yet collecting demonstrations on physical robots is expensive and difficult to scale. Simulation can generate data efficiently, but existing pipelines typically operate within closed asset libraries and predefined scenes: adding a newly observed object or environment still requires substantial effort to reconstruct geometry, specify physical and semantic properties, annotate interactions, and integrate the result into executable tasks.
+
+## Related
+<!-- [[other-paper-citekey]] -->

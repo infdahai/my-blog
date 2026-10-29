@@ -1,0 +1,29 @@
+---
+citekey: "chavanNeuroSymbolicProceduralReasoningLongHorizonVisionLanguage2026"
+title: "Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation"
+authors: ["Vivek Chavan", "Yahuan Shi", "Oliver Heimann", "Kevin Haninger", "J\\\"org Kr\\\"uger"]
+year: 2026
+venue: "arXiv"
+url: "https://arxiv.org/abs/2609.05369"
+doi: "10.48550/arXiv.2609.05369"
+tags: [paper, embodied-ai, "cs.CV", "cs.RO"]
+status: unread
+rating:
+created: 2026-09-08
+---
+
+# Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation
+
+> Vivek Chavan, Yahuan Shi, Oliver Heimann, Kevin Haninger, J\"org Kr\"uger · 2026
+> [arXiv](https://arxiv.org/abs/2609.05369) · [PDF](https://arxiv.org/pdf/2609.05369)
+
+## Abstract
+
+Vision-language-action (VLA) models can execute short manipulation skills, but remain brittle in long-horizon procedures requiring persistent task state, dependency-aware reasoning, conditional decisions, and reliable grounding. We investigate a neuro-symbolic framework that combines learned VLA control with explicit task graphs and multimodal procedural memory. Task graphs encode action dependencies, valid transitions, and branch conditions, while memory maintains the active step, completed actions, textual context, and task-relevant visual evidence. Together, these structures guide object selection, destination grounding, subgoal dispatch, and verification of expected state transitions. Human demonstrations provide additional spatial and temporal guidance through gaze or saliency cues. To isolate their effect on policy learning, our initial study bypasses cross-view gaze transfer and directly annotates pseudo-gaze in robot-view teleoperation videos. The resulting guidance is used during VLA fine-tuning and inference. We study two long-horizon manipulation domains, workspace clearing and surgical-instrument handling, which require ordered execution, visually grounded decisions, and conditional branching. We evaluate correct-object and destination selection, subtask completion, task progress, step-order consistency, complete-task success, and procedural or execution mistakes. This work positions structured symbolic reasoning and demonstration-derived visual guidance as complementary mechanisms for reliable long-horizon VLA manipulation.
+
+## TL;DR
+
+Vision-language-action (VLA) models can execute short manipulation skills, but remain brittle in long-horizon procedures requiring persistent task state, dependency-aware reasoning, conditional decisions, and reliable grounding. We investigate a neuro-symbolic framework that combines learned VLA control with explicit task graphs and multimodal procedural memory.
+
+## Related
+<!-- [[other-paper-citekey]] -->

@@ -1,0 +1,29 @@
+---
+citekey: "sultanA3P5NEMESISIntegratedRoverDesignEnvironmentalReconnaissanceSampling2026"
+title: "A3P5 NEMESIS Integrated Rover Design for Environmental Reconnaissance and Robotic Sampling with Reproducible Mobility Analysis and an External Data Machine Learning Calibration Benchmark"
+authors: ["Shafi Bin Sultan", "Sabik Bin Sultan", "Safwan Sadad"]
+year: 2026
+venue: "arXiv"
+url: "https://arxiv.org/abs/2609.18245"
+doi: "10.48550/arXiv.2609.18245"
+tags: [paper, embodied-ai, "cs.RO"]
+status: unread
+rating:
+created: 2026-09-17
+---
+
+# A3P5 NEMESIS Integrated Rover Design for Environmental Reconnaissance and Robotic Sampling with Reproducible Mobility Analysis and an External Data Machine Learning Calibration Benchmark
+
+> Shafi Bin Sultan, Sabik Bin Sultan, Safwan Sadad · 2026
+> [arXiv](https://arxiv.org/abs/2609.18245) · [PDF](https://arxiv.org/pdf/2609.18245)
+
+## Abstract
+
+A3P5 NEMESIS is a four-wheel rover intended to combine remote inspection, environmental observation and lightweight manipulation within one serviceable platform. This study develops a photo-constrained geometric reconstruction, a subsystem architecture and a reproducible analytical assessment while distinguishing physical prototype evidence from proposed functions. An exploratory search retrieved 5,000 bibliographic records across ten queries, yielding 4,897 distinct DOI records and 1,212 metadata candidates; selected primary studies and technical documents informed the design. The reconstructed configuration retains the carbon-pattern enclosure, independently steered wheel assemblies, folded manipulator, inclined camera mast and side sampling equipment. A declared 24 kg scenario predicts 3.28 newton-metres of gearbox-output torque per wheel on a 20-degree grade under equal load sharing; a separate static model shows how a 2 kg forward payload reduces the geometric front-tipping bound from 38.1 degrees to 32.7 degrees. These are design screens, not measured operating limits. A public-data calibration benchmark uses 7,344 eligible hourly observations, eight sensor/environmental predictors and chronological training, validation and test partitions. Validation-selected ridge regression achieves a held-out CO root-mean-square error of 0.502 milligrams per cubic metre, with a 95% daily-block bootstrap interval of 0.435-0.569 milligrams per cubic metre. This result concerns an external sensor array and cannot establish NEMESIS accuracy. The combined analysis identifies priority measurements, proposed control interfaces and mission-specific validation requirements. The contribution is a traceable engineering design study and evaluation framework for a prototype whose integrated field performance remains to be established.
+
+## TL;DR
+
+A3P5 NEMESIS is a four-wheel rover intended to combine remote inspection, environmental observation and lightweight manipulation within one serviceable platform. This study develops a photo-constrained geometric reconstruction, a subsystem architecture and a reproducible analytical assessment while distinguishing physical prototype evidence from proposed functions.
+
+## Related
+<!-- [[other-paper-citekey]] -->

@@ -1,0 +1,29 @@
+---
+citekey: "zhuGGNavGoalOrientedGroundingChainThoughtElicits2026"
+title: "GG-Nav: Goal-oriented Grounding Chain-of-Thought Elicits Reasoning in Navigation Foundation Models"
+authors: ["Shaohao Zhu", "Wensi Huang", "Siqi Zhang", "Yuqiang Yang", "Meng Wei", "Chenyang Wan", "Tianle Liu", "Tai Wang", "Jinming Xu"]
+year: 2026
+venue: "arXiv"
+url: "https://arxiv.org/abs/2610.14541"
+doi: "10.48550/arXiv.2610.14541"
+tags: [paper, embodied-ai, "cs.AI", "cs.RO"]
+status: unread
+rating:
+created: 2026-10-15
+---
+
+# GG-Nav: Goal-oriented Grounding Chain-of-Thought Elicits Reasoning in Navigation Foundation Models
+
+> Shaohao Zhu, Wensi Huang, Siqi Zhang, Yuqiang Yang, Meng Wei, Chenyang Wan, Tianle Liu, Tai Wang, Jinming Xu · 2026
+> [arXiv](https://arxiv.org/abs/2610.14541) · [PDF](https://arxiv.org/pdf/2610.14541)
+
+## Abstract
+
+Emerging strong Vision-Language Models (VLMs) have advanced navigation foundation models. However, these models still have unsatisfactory performance on goal-oriented navigation settings. In this paper, we first conduct a motivating study revealing that the key issue lies in the insufficient utilization of streaming observations and imprecise target localization. To tackle these challenges, we propose GG-Nav, a simple yet effective navigation framework that learns a structured chain-of-thought (CoT) mechanism via supervised fine-tuning to explicitly localize goal-relevant instances, accumulate grounding evidence, and support more reliable decision-making. Specifically, the structured CoT is designed with two key stages: (i) Observation-to-Evidence, which reasons over all intermediate frames between adjacent decision steps to retain useful goal-related evidence; and (ii) Evidence-to-Decision, which integrates the current observation with accumulated evidence to ground the target and support the generation of navigation actions or clarification questions. Extensive experiments show that GG-Nav outperforms the state-of-the-art methods in terms of success rates on the HM3D ObjectNav, VL-LN, and CoIN benchmarks by 3.1%, 16.6%, and 5.3%, respectively. Ablation studies further show that accumulating evidence from intermediate observations reduces evidence-missing failures by 11.6%, while explicit grounding reduces stopping errors by 49.4%. We also deploy GG-Nav on a Unitree Go2 robot, demonstrating its zero-shot generalization capability in unseen real-world environments.
+
+## TL;DR
+
+Emerging strong Vision-Language Models (VLMs) have advanced navigation foundation models. However, these models still have unsatisfactory performance on goal-oriented navigation settings.
+
+## Related
+<!-- [[other-paper-citekey]] -->

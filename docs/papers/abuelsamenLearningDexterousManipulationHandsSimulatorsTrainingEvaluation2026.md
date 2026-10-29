@@ -1,0 +1,29 @@
+---
+citekey: "abuelsamenLearningDexterousManipulationHandsSimulatorsTrainingEvaluation2026"
+title: "Learning Dexterous Manipulation: Hands, Simulators, Training, and Evaluation"
+authors: ["Luai Abuelsamen"]
+year: 2026
+venue: "arXiv"
+url: "https://arxiv.org/abs/2610.33486"
+doi: "10.48550/arXiv.2610.33486"
+tags: [paper, embodied-ai, "cs.RO"]
+status: unread
+rating:
+created: 2026-10-28
+---
+
+# Learning Dexterous Manipulation: Hands, Simulators, Training, and Evaluation
+
+> Luai Abuelsamen · 2026
+> [arXiv](https://arxiv.org/abs/2610.33486) · [PDF](https://arxiv.org/pdf/2610.33486)
+
+## Abstract
+
+A dexterous hand can change an object's pose without setting it down. This survey covers 113 learning-based methods that attempt it, the hands they run on, the simulators they train in, and how they report results. The field has largely converged on one recipe: reinforcement learning on privileged state in a GPU simulator, distilled into a vision-only student for transfer to hardware. Almost half the corpus trains that way, nearly all of it in one simulator, whose own successors are barely used. A second and faster-growing branch learns from teleoperated demonstration instead, through vision-language-action models, diffusion policies, and systems whose contribution is the collection rig itself. Published work has tripled since 2022. Grasping remains the largest task family and bimanual coordination the fastest-rising, and almost every experiment runs on one of four hands. What the survey adds comes from reading released code and vendor specifications beside the papers. Eight hands that can be bought or built from published designs appear in no method paper here. Where the depth a hand sinks into the object it holds is reported at all, it is not measured in the physics that produced the motion. Section VII proposes a protocol for the unreported quantities; the body gives the counts behind every claim above.
+
+## TL;DR
+
+A dexterous hand can change an object's pose without setting it down. This survey covers 113 learning-based methods that attempt it, the hands they run on, the simulators they train in, and how they report results.
+
+## Related
+<!-- [[other-paper-citekey]] -->

@@ -1,0 +1,29 @@
+---
+citekey: "teamMathcalN0FoundationAgeTactileIntelligence2026"
+title: "$\mathcal{N}_0$-Foundation: Towards the Age of Tactile Intelligence"
+authors: ["NeoteAI Team", "Fudan TEAI Team"]
+year: 2026
+venue: "arXiv"
+url: "https://arxiv.org/abs/2608.29601"
+doi: "10.48550/arXiv.2608.29601"
+tags: [paper, embodied-ai, "cs.CV", "cs.LG", "cs.RO"]
+status: unread
+rating:
+created: 2026-09-02
+---
+
+# $\mathcal{N}_0$-Foundation: Towards the Age of Tactile Intelligence
+
+> NeoteAI Team, Fudan TEAI Team · 2026
+> [arXiv](https://arxiv.org/abs/2608.29601) · [PDF](https://arxiv.org/pdf/2608.29601)
+
+## Abstract
+
+We present $\mathcal{N}_0$-Foundation, a paradigm for tactile-enabled embodied manipulation, which integrates tactile sensing hardware, large-scale multimodal data, tactile representation learning, and standardized evaluation. First, we engineer the infrastructure for scalable data collection, including a vision-based tactile sensor, a tactile Universal Manipulation Interface (UMI), and a synchronized visuo-tactile data collection system supporting both robot embodiments and UMI-based demonstrations. Leveraging this infrastructure, we construct NeoData, which contains more than 30000 hours of synchronized visual and tactile demonstrations, spanning six embodiments, 450 tasks, and billions of paired RGB and tactile frames collected through a mixture of real-robot teleoperation and UMI-based demonstrations. To facilitate open research, we further release OpenNeoData, a 5000-hour open-source subset of NeoData. The dataset addresses a central limitation of existing manipulation corpora, critical for deformable-object manipulation, precise assembly, delicate force control, and sustained surface interaction. Capitalizing on the large-scale, heterogeneous tactile measurements, we propose NeoForce, a visuo-tactile representation model that learn transferable tactile representations across different sensor designs. To enable systematic evaluation of tactile embodied models built upon our infrastructure, datasets and tactile representations, we further propose a comprehensive benchmark, which combines the real-world NeoReal suite and the simulated NeoSim suite for standardized evaluation. Experiments across both suites show that policies benefit from the physical contact state rather than from the device-specific appearance of the tactile signal. We release the dataset, the representation, and the benchmark, aiming at supporting future work on tactile-enabled embodied manipulation.
+
+## TL;DR
+
+We present $\mathcal{N}_0$-Foundation, a paradigm for tactile-enabled embodied manipulation, which integrates tactile sensing hardware, large-scale multimodal data, tactile representation learning, and standardized evaluation. First, we engineer the infrastructure for scalable data collection, including a vision-based tactile sensor, a tactile Universal Manipulation Interface (UMI), and a synchronized visuo-tactile data collection system supporting both robot embodiments and UMI-based demonstrations.
+
+## Related
+<!-- [[other-paper-citekey]] -->

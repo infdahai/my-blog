@@ -1,0 +1,29 @@
+---
+citekey: "pengAquaWorldStructureConsistentUnderwaterWorldGenerationSimulation2026"
+title: "AquaWorld: Structure-Consistent Underwater World Generation for Robot Simulation"
+authors: ["Bin Peng", "Tiandong Zhang", "Ruidong Wang", "Min Luo", "Shuo Wang"]
+year: 2026
+venue: "arXiv"
+url: "https://arxiv.org/abs/2609.22670"
+doi: "10.48550/arXiv.2609.22670"
+tags: [paper, embodied-ai, "cs.RO"]
+status: unread
+rating:
+created: 2026-09-22
+---
+
+# AquaWorld: Structure-Consistent Underwater World Generation for Robot Simulation
+
+> Bin Peng, Tiandong Zhang, Ruidong Wang, Min Luo, Shuo Wang · 2026
+> [arXiv](https://arxiv.org/abs/2609.22670) · [PDF](https://arxiv.org/pdf/2609.22670)
+
+## Abstract
+
+Underwater robot simulation requires diverse environments in which terrain, scene composition, tasks, and currents remain mutually consistent. We present AquaWorld, a world-generation framework that preserves these relationships through shared terrain structure. A language-conditioned plan generates 3D terrain and shared structural references that guide asset placement, task definition, and inflow specification under stochastic variation. The framework incorporates over 10,000 underwater-compatible assets, predicts reusable terrain-conditioned mean-flow fields through a CFD-supervised residual model, and supports conventional underwater vehicles and bio-inspired robotic fish. On 24 paired terrains, structure-consistent randomization produces substantially better cross-factor consistency than independent randomization. In a matched-budget policy-training comparison, structurally coherent randomization achieves a validation success rate 21% higher than independent randomization. In separate physical experiments, a simulation-trained visual navigation policy succeeds in 95% of physical tank trials without updating its perception or control modules. Overall, AquaWorld provides a practical way to generate varied underwater environments while retaining the structural relationships needed for flow simulation and robot learning.
+
+## TL;DR
+
+Underwater robot simulation requires diverse environments in which terrain, scene composition, tasks, and currents remain mutually consistent. We present AquaWorld, a world-generation framework that preserves these relationships through shared terrain structure.
+
+## Related
+<!-- [[other-paper-citekey]] -->

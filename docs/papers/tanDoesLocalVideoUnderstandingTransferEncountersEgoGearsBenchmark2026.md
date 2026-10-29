@@ -1,0 +1,29 @@
+---
+citekey: "tanDoesLocalVideoUnderstandingTransferEncountersEgoGearsBenchmark2026"
+title: "Does Local Video Understanding Transfer Across Encounters? The EgoGears Benchmark"
+authors: ["Yuedong Tan", "Lei Qi", "Yu Liu", "Di Wen", "Ruiping Liu", "Xiaoye Wang", "Yufan Chen", "Junwei Zheng", "Chengzhi Wu", "Chen Zhang", "Zhihang Chen", "Haiwen Sun", "Zongwei Wu", "Radu Timofte", "Danda Pani Paudel", "Kunyu Peng"]
+year: 2026
+venue: "arXiv"
+url: "https://arxiv.org/abs/2609.37938"
+doi: "10.48550/arXiv.2609.37938"
+tags: [paper, embodied-ai, "cs.AI", "cs.CV", "cs.RO"]
+status: unread
+rating:
+created: 2026-10-04
+---
+
+# Does Local Video Understanding Transfer Across Encounters? The EgoGears Benchmark
+
+> Yuedong Tan, Lei Qi, Yu Liu, Di Wen, Ruiping Liu, Xiaoye Wang, Yufan Chen, Junwei Zheng, Chengzhi Wu, Chen Zhang, Zhihang Chen, Haiwen Sun, Zongwei Wu, Radu Timofte, Danda Pani Paudel, Kunyu Peng · 2026
+> [arXiv](https://arxiv.org/abs/2609.37938) · [PDF](https://arxiv.org/pdf/2609.37938)
+
+## Abstract
+
+Embodied systems must make knowledge acquired during one encounter usable in another despite changes in viewpoint, motion, and illumination. Yet aggregate cross-video accuracy conflates failures of local perception with failures to preserve observation identity, establish correspondence, and compose evidence, obscuring whether local video understanding actually transfers. We introduce EgoGears, a complementary single- and multi-video benchmark designed to diagnose this transition. It contains 567 single-video and 1,487 multi-video questions derived from 126 human-collected egocentric recordings covering 39 outdoor routes. Repeated traversals across movement speeds and lighting conditions ground comparisons in shared physical environments; 531 questions require alignment across independent recordings. Single-video questions measure the local visual, spatial, and motion evidence available to a model, while multi-video questions test whether evidence remains bound to the correct observation and can be composed into consistent route relationships. We report 29 single-video and 31 multi-video MLLM configurations across six model families in the main leaderboard. Among the 20 configurations evaluated comparably on both splits, every model performs worse on multi-video questions, with a mean decrease of 22.5 percentage points, and the gap persists when answer format and scoring are held fixed. The gap is not explained simply by additional videos or recording boundaries. The central bottlenecks are observation--evidence binding and ordered route-state tracking. The code and benchmark are publicly available at https://github.com/lei-qi-233/EgoGears.
+
+## TL;DR
+
+Embodied systems must make knowledge acquired during one encounter usable in another despite changes in viewpoint, motion, and illumination. Yet aggregate cross-video accuracy conflates failures of local perception with failures to preserve observation identity, establish correspondence, and compose evidence, obscuring whether local video understanding actually transfers.
+
+## Related
+<!-- [[other-paper-citekey]] -->

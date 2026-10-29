@@ -1,0 +1,29 @@
+---
+citekey: "aghajanzadehClosedLoopAwarePlanningImitationFreeSpeedScoring2026"
+title: "Closed-Loop Aware Planning via Imitation-Free Speed Scoring for End-to-End Autonomous Driving"
+authors: ["Emad Aghajanzadeh", "Thomas Schwarzfischer", "Marc Kaufeld", "Moritz Thoma", "Ryan P\\'egoud", "Manoj Rohit Vemparala", "Pierpaolo Mori", "Nael Fasfous", "Johannes Betz", "Daniel Mueller-Gritschneder", "Ulf Schlichtmann"]
+year: 2026
+venue: "arXiv"
+url: "https://arxiv.org/abs/2610.36079"
+doi: "10.48550/arXiv.2610.36079"
+tags: [paper, embodied-ai, "cs.CV", "cs.LG", "cs.RO"]
+status: unread
+rating:
+created: 2026-10-29
+---
+
+# Closed-Loop Aware Planning via Imitation-Free Speed Scoring for End-to-End Autonomous Driving
+
+> Emad Aghajanzadeh, Thomas Schwarzfischer, Marc Kaufeld, Moritz Thoma, Ryan P\'egoud, Manoj Rohit Vemparala, Pierpaolo Mori, Nael Fasfous, Johannes Betz, Daniel Mueller-Gritschneder, Ulf Schlichtmann · 2026
+> [arXiv](https://arxiv.org/abs/2610.36079) · [PDF](https://arxiv.org/pdf/2610.36079)
+
+## Abstract
+
+End-to-end autonomous driving has predominantly relied on open-loop imitation learning for training, which presents two limitations. First, expert demonstrations show only one behavior per scenario, so the model cannot learn alternative valid behaviors and, in turn, cannot adapt to user-specified preferences at test time. Second, noise or ambiguity in these demonstrations can produce inconsistent, unreliable supervision for the end-to-end models. Driving is inherently multi-modal: multiple different behaviors can be valid responses to the same scene, and this diversity arises largely from speed rather than path. We introduce a planning paradigm that learns the path through imitation while scoring a set of candidate speeds across multiple criteria with a learned function supervised by physically grounded safety constraints. We realize this paradigm as Closed-Loop Aware Planning for Autonomous Driving (CLAP-AD), a plug-in planning head that integrates with existing end-to-end driving models and, to our knowledge, is the first to enable explicit test-time control over their speed selection without speed-conditioned training. On Bench2Drive-Speed, CLAP-AD sets a new state of the art Speed-Adherence Score of 82.53, topping TFv6, the strongest baseline on this metric, by 12.9 points while retaining strong closed-loop driving performance. On Bench2Drive, it improves driving score by +28.5 and +32.7 over UniAD and VAD, and on NAVSIM v2, built on real-world driving data, EPDMS by +6.1 over its backbone. Project page: https://clap-ad.github.io
+
+## TL;DR
+
+End-to-end autonomous driving has predominantly relied on open-loop imitation learning for training, which presents two limitations. First, expert demonstrations show only one behavior per scenario, so the model cannot learn alternative valid behaviors and, in turn, cannot adapt to user-specified preferences at test time.
+
+## Related
+<!-- [[other-paper-citekey]] -->

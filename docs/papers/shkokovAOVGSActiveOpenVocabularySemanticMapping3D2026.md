@@ -1,0 +1,29 @@
+---
+citekey: "shkokovAOVGSActiveOpenVocabularySemanticMapping3D2026"
+title: "AOV-GS: Active Open-Vocabulary Semantic Mapping with 3D Gaussian Splatting"
+authors: ["Rodion Shkokov", "Tatiana Zemskova", "Dmitry Yudin"]
+year: 2026
+venue: "arXiv"
+url: "https://arxiv.org/abs/2610.29374"
+doi: "10.48550/arXiv.2610.29374"
+tags: [paper, embodied-ai, "cs.CV", "cs.RO"]
+status: unread
+rating:
+created: 2026-10-23
+---
+
+# AOV-GS: Active Open-Vocabulary Semantic Mapping with 3D Gaussian Splatting
+
+> Rodion Shkokov, Tatiana Zemskova, Dmitry Yudin · 2026
+> [arXiv](https://arxiv.org/abs/2610.29374) · [PDF](https://arxiv.org/pdf/2610.29374)
+
+## Abstract
+
+Robots deployed in human-centered environments need maps that support both geometric navigation and open-vocabulary semantic queries beyond a fixed label set. A key challenge is enriching such maps with semantic information without relying on manually annotated segmentation masks or closed-set semantic categories. Existing geometry-driven active mapping maximizes coverage but treats semantics as a passive by-product of the collected trajectory, whereas active semantic mapping typically depends on supervised semantic segmentation. We present AOV-GS, an active 3D Gaussian mapping system that guides exploration using frozen foundation models. During coarse exploration, AOV-GS re-ranks geometrically promising candidate views according to CLIP mask-embedding novelty computed from SAM instance segmentation, biasing exploration toward semantically informative regions. Frozen SAM and CLIP provide instance masks and language-aligned embeddings throughout mapping, while a lightweight scene-specific language field is fitted offline directly to the collected CLIP embeddings rather than manually annotated masks, enabling open-vocabulary text-query segmentation on novel views. In a controlled comparison using the same SAM-CLIP perception stack, AOV-GS improves average language-field mIoU over geometry-only active planning by 1.3 percentage points on Replica (34.6% on eight scenes) and by 1.8 points on Matterport3D (23.1% on five scenes). With CorrCLIP, AOV-GS reaches 35.6% on Replica, 2.0 points above the matched Geometry-based + CorrCLIP baseline. Novel-view PSNR remains comparable to the geometry-only baseline on both datasets while depth L1 improves on Replica. Code is available at https://github.com/OptimusFaber/AOV-GS.
+
+## TL;DR
+
+Robots deployed in human-centered environments need maps that support both geometric navigation and open-vocabulary semantic queries beyond a fixed label set. A key challenge is enriching such maps with semantic information without relying on manually annotated segmentation masks or closed-set semantic categories.
+
+## Related
+<!-- [[other-paper-citekey]] -->

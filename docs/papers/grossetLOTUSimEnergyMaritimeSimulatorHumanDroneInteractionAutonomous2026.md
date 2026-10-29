@@ -1,0 +1,29 @@
+---
+citekey: "grossetLOTUSimEnergyMaritimeSimulatorHumanDroneInteractionAutonomous2026"
+title: "LOTUSim-Energy: A Maritime Simulator for Human-Drone Interaction in Autonomous Offshore Operation \&amp; Maintenance"
+authors: ["Juliette Grosset", "Marie Dubromel", "Hélène Lechêne", "Quentin Arzel", "Cédric Buche"]
+year: 2026
+venue: "arXiv"
+url: "https://arxiv.org/abs/2609.17124"
+doi: "10.48550/arXiv.2609.17124"
+tags: [paper, embodied-ai, "cs.RO"]
+status: unread
+rating:
+created: 2026-09-16
+---
+
+# LOTUSim-Energy: A Maritime Simulator for Human-Drone Interaction in Autonomous Offshore Operation \&amp; Maintenance
+
+> Juliette Grosset, Marie Dubromel, Hélène Lechêne, Quentin Arzel, Cédric Buche · 2026
+> [arXiv](https://arxiv.org/abs/2609.17124) · [PDF](https://arxiv.org/pdf/2609.17124)
+
+## Abstract
+
+Offshore maintenance requires operations in the air, the surface, and the subsea domain and include human supervision. This paper presents LOTUSim-Energy, a real-time maritime simulator designed for multi-domain human--drone interaction for offshore operation and maintenance. The plat- form unifies heterogeneous unmanned vehicles (Unmanned Aerial Vehicles: UAVs, Unmanned Surface Vehicles: USVs, Autonomous Underwater Vehicles: AUVs, Remotely Operated Vehicles: ROVs) within a distributed architecture coupling environment forcing (wind, waves, currents) and provides immersive user interfaces for supervision (desktop and virtual reality). A structured offshore task library enables repeatable evaluation of autonomy stacks under realistic metocean disturbances. The simulator supports realistic physics, energy-aware battery modeling, and fault-detection pipelines as modular validation tools. System-level performance is demonstrated on a multi-domain inspection scenario for monopile and transition piece structure, where we evaluate the reliability of integrated waypoint-follower plugin and Automatic Identification System (AIS)-referenced trajectory tracking under real-time energy monitoring. By combining unified environmental physics, heterogeneous vehicle simulation, and immersive supervision, LOTUSim-Energy provides an integration testbed for prototyping and rehearsing offshore human--robot collaboration workflows, as a step toward de-risking sea deployment.
+
+## TL;DR
+
+Offshore maintenance requires operations in the air, the surface, and the subsea domain and include human supervision. This paper presents LOTUSim-Energy, a real-time maritime simulator designed for multi-domain human--drone interaction for offshore operation and maintenance.
+
+## Related
+<!-- [[other-paper-citekey]] -->
